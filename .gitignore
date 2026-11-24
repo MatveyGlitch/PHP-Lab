@@ -1,0 +1,22 @@
+# Настройки среды разработки
+.idea/
+
+# Локальные настройки и зависимости
+.env
+.env.local
+node_modules/
+
+# Служебные файлы операционных систем
+.DS_Store
+Thumbs.db
+
+# Загруженные изображения и миниатюры
+/uploads/*
+!/uploads/.gitkeep
+!/uploads/.htaccess
+/thumbnails/*
+!/thumbnails/.gitkeep
+!/thumbnails/.htaccess
+
+# Журналы ошибок
+*.log
